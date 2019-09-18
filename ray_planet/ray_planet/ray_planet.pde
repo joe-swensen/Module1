@@ -25,7 +25,7 @@ ArrayList<wPanel> unusedPanels = new ArrayList<wPanel>(); //creates array list f
 ArrayList<celestialBody> presentBodies = new ArrayList<celestialBody>();
 int totalBodies = int(5 + random(5));
 void setup() {
-  fulscreen(P3D);
+  fullScreen(P3D);
   for (int i = 0; i < panelList.length; i++) { //add panels to unused arraylist
     unusedPanels.add(panelList[i]);
   }
